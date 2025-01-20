@@ -1,48 +1,61 @@
-import { createTheme, responsiveFontSizes } from "@mui/material/styles";
+import { createTheme, responsiveFontSizes } from '@mui/material/styles';
+import { Chakra_Petch, IBM_Plex_Mono } from 'next/font/google';
+
+const chakraPetch = Chakra_Petch({
+    subsets: ['latin'],
+    weight: ['400', '500', '600', '700'],
+    display: 'swap',
+});
+
+const ibmPlexMono = IBM_Plex_Mono({
+    subsets: ['latin'],
+    weight: ['400', '500', '600', '700'],
+    display: 'swap',
+});
 
 const commonTypography = {
-  fontFamily: "'Chakra Petch', 'IBM Plex Mono', sans-serif",
+    fontFamily: `${chakraPetch.style.fontFamily}, ${ibmPlexMono.style.fontFamily}, sans-serif`,
 };
 
 // Create the base light and dark themes
 let lightTheme = createTheme({
-  palette: {
-    mode: "light",
-  },
-  typography: {
-    ...commonTypography,
-    h1: {
-      fontFamily: "'Chakra Petch', sans-serif",
-      fontWeight: 600,
+    palette: {
+        mode: 'light',
     },
-    h2: {
-      fontFamily: "'Chakra Petch', sans-serif",
-      fontWeight: 500,
+    typography: {
+        ...commonTypography,
+        h1: {
+            fontFamily: chakraPetch.style.fontFamily,
+            fontWeight: 600,
+        },
+        h2: {
+            fontFamily: chakraPetch.style.fontFamily,
+            fontWeight: 500,
+        },
+        body1: {
+            fontFamily: ibmPlexMono.style.fontFamily,
+        },
     },
-    body1: {
-      fontFamily: "'IBM Plex Mono', sans-serif",
-    },
-  },
 });
 
 let darkTheme = createTheme({
-  palette: {
-    mode: "dark",
-  },
-  typography: {
-    ...commonTypography,
-    h1: {
-      fontFamily: "'Chakra Petch', sans-serif",
-      fontWeight: 600,
+    palette: {
+        mode: 'dark',
     },
-    h2: {
-      fontFamily: "'Chakra Petch', sans-serif",
-      fontWeight: 500,
+    typography: {
+        ...commonTypography,
+        h1: {
+            fontFamily: chakraPetch.style.fontFamily,
+            fontWeight: 600,
+        },
+        h2: {
+            fontFamily: chakraPetch.style.fontFamily,
+            fontWeight: 500,
+        },
+        body1: {
+            fontFamily: ibmPlexMono.style.fontFamily,
+        },
     },
-    body1: {
-      fontFamily: "'IBM Plex Mono', sans-serif",
-    },
-  },
 });
 
 // Apply responsive font sizes

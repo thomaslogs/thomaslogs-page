@@ -1,6 +1,6 @@
-import createCache from "@emotion/cache";
+import createCache from '@emotion/cache';
 
 export const emotionCache = createCache({
-  key: "css",
-  prepend: true,
+    key: 'css',
+    prepend: true,
 });
