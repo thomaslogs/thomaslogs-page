@@ -4,6 +4,22 @@ import ProjectCard from './ProjectCard';
 
 const projectsData = [
     {
+        company: 'prss.it',
+        date: 'Aug 2025',
+        description: 'Smart links, QR codes, and click tracking for marketers, creators, and startups.',
+        link: 'https://prss.it',
+        tags: ['Full Stack Web Dev'],
+        logo: '/logo-prss.it.png',
+    },
+    {
+        company: 'PARIS CREATOR',
+        date: 'May 2025',
+        description: 'Smart local collabs — discover, filter, and work with creators who match your brand.',
+        link: 'https://pariscreator.com',
+        tags: ['Full Stack Web Dev'],
+        logo: '/logo-pc.png',
+    },
+    {
         company: 'LINKIOO',
         date: 'Jan 2024',
         description: 'B2B SaaS - Authenticity, Brand-Client relationship, Sustainability, Analytics',
