@@ -26,7 +26,7 @@ const Profile = forwardRef<HTMLDivElement>((_, ref) => {
                 📍 Seoul, South Korea
             </Typography>
             <Stack direction="row" spacing={2} justifyContent="center" sx={{ mt: 2 }}>
-                <IconButton href="mailto:0xthomas26@gmail.com">
+                <IconButton href="mailto:thomaslogs.work@gmail.com">
                     <Email />
                 </IconButton>
                 <IconButton href="https://www.linkedin.com/in/thomas-roche" target="_blank">
