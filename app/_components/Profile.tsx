@@ -32,7 +32,7 @@ const Profile = forwardRef<HTMLDivElement>((_, ref) => {
                 <IconButton href="https://www.linkedin.com/in/thomas-roche" target="_blank">
                     <LinkedIn />
                 </IconButton>
-                <IconButton href="https://github.com/0xthomas26" target="_blank">
+                <IconButton href="https://github.com/thomaslogs" target="_blank">
                     <GitHub />
                 </IconButton>
             </Stack>

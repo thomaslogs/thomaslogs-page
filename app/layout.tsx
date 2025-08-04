@@ -3,8 +3,8 @@ import { CssBaseline } from '@mui/material';
 import Providers from './_contexts';
 
 export const metadata: Metadata = {
-    title: 'Thomas R. Portfolio',
-    description: 'Full-stack software engineer with experience in Blockchain, AI, and SaaS development.',
+    title: '@thomaslogs Portfolio',
+    description: 'Full Stack Software Engineer with experience in SaaS, AI, and Blockchain.',
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
