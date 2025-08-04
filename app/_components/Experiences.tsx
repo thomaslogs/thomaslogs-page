@@ -6,7 +6,7 @@ const calculateDuration = (start: string, end?: string | null): string => {
     const startDate = new Date(start);
     const endDate = end ? new Date(end) : new Date();
 
-    let totalMonths =
+    const totalMonths =
         (endDate.getFullYear() - startDate.getFullYear()) * 12 + (endDate.getMonth() - startDate.getMonth()) + 1; // +1 to make it inclusive
 
     const years = Math.floor(totalMonths / 12);
