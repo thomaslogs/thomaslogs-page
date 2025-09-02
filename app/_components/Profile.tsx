@@ -1,6 +1,6 @@
 import React, { forwardRef } from 'react';
 import { Box, Typography, Avatar, Stack, IconButton, Container } from '@mui/material';
-import { Email, LinkedIn, GitHub } from '@mui/icons-material';
+import { Email, GitHub } from '@mui/icons-material';
 
 const getTotalExperienceYears = (start: string): number => {
     const startDate = new Date(start);
