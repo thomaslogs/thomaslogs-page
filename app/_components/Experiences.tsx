@@ -21,7 +21,7 @@ const calculateDuration = (start: string, end?: string | null): string => {
 const rawExperiences = [
     {
         company: 'ROCHEGRUP SOFTWARES',
-        title: 'Co-founder & CTO',
+        title: 'Freelance - Full Stack Engineer',
         from: '2020-10-01',
         to: null,
         description: 'Custom software agency and SaaS lab — we build scalable web, blockchain, and AI products.',
