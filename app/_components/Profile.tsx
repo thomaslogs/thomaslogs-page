@@ -23,7 +23,7 @@ const Profile = forwardRef<HTMLDivElement>((_, ref) => {
                 </Typography>
             </Container>
             <Typography variant="body2" sx={{ mt: 1, color: 'text.secondary' }}>
-                📍 Seoul, South Korea
+                📍 Remote
             </Typography>
             <Stack direction="row" spacing={2} justifyContent="center" sx={{ mt: 2 }}>
                 <IconButton href="mailto:thomaslogs.work@gmail.com">
