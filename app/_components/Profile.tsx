@@ -18,8 +18,8 @@ const Profile = forwardRef<HTMLDivElement>((_, ref) => {
             </Typography>
             <Container maxWidth="sm" sx={{ mt: 2, mb: 2 }}>
                 <Typography variant="body1">
-                    Full Stack Software Engineer with {getTotalExperienceYears('2017-08-01')}+ years of experience in
-                    SaaS, AI, and Blockchain.
+                    Senior Full Stack Software Engineer with {getTotalExperienceYears('2017-08-01')}+ years of
+                    experience in SaaS, AI, and Blockchain.
                 </Typography>
             </Container>
             <Typography variant="body2" sx={{ mt: 1, color: 'text.secondary' }}>
